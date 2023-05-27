@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alldp"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Chocolate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/addchocolatetext"
+        android:textSize="28sp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/chocolate"
+        android:layout_below="@+id/addchocolatetext"
+        android:id="@+id/addtheimage"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addtheimage"
+        android:hint="Chocolate Name"
+        android:textColorHint="@color/main_page_color"
+        android:id="@+id/chocolatename"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chocolatename"
+        android:hint="Chocolate Price"
+        android:textColorHint="@color/main_page_color"
+        android:id="@+id/chocolateprice"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <Button
+        android:id="@+id/addchocolates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chocolateprice"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/mainpagebuttons"
+        android:layout_marginBottom="15dp"
+        android:text="Add Chocolate"
+        android:textAllCaps="false"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notificationmessage"
+        android:layout_below="@+id/addchocolates"
+        android:hint="Notification Message"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColorHint="@color/main_page_color"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notificationmessage"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="Send Notification"
+        android:id="@+id/sendnotification"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mainpagebuttons"
+        />
+
+</RelativeLayout>

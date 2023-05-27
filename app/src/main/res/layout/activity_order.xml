@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alldp"
+    tools:context=".OrderActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="161dp"
+        android:id="@+id/ChocolateImage"
+        android:src="@drawable/chocolate"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/chocolatename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ChocolateImage"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginBottom="20dp"
+        android:text="DairyMilk"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chocolateprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chocolatename"
+        android:layout_marginStart="15dp"
+        android:text="Rs. 1500"
+
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chocolateprice"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Quantity"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/chocolateprice"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/quantity"
+        android:inputType="number"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantity"
+        android:layout_marginTop="28dp"
+        android:text="Place Order"
+        android:textAllCaps="false"
+        android:id="@+id/placeorderbtn"
+        android:background="@drawable/mainpagebuttons"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+
+</RelativeLayout>

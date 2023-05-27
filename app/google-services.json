@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285949383803",
+    "project_id": "chocomarts-1c16e",
+    "storage_bucket": "chocomarts-1c16e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285949383803:android:247237da70024a630f7ede",
+        "android_client_info": {
+          "package_name": "com.example.chocomarts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285949383803-hs9p11dov73e0k25hl59ph65d2gpd3i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZmxR8kZxBbIHIXqZ-7EV_nEGEJTXFy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285949383803-hs9p11dov73e0k25hl59ph65d2gpd3i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
